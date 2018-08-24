@@ -1,0 +1,13 @@
+Exercises
+
+1. What is a Node module?
+
+a file or folder that can be imported with node's "require()' statement, at which point the file requiring can use/access its functions.
+
+2. What is the main difference between exports and module.exports?
+
+Whatever object module.exports is assigned to is the object that is exported from the module.
+
+3. Why is using exports recommended?
+
+It is recommended to use exports because it is a reference to module.exports and unable to reassign the module.exports object.
